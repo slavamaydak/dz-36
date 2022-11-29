@@ -1,0 +1,59 @@
+.animation-1 {
+  overflow: hidden;
+}
+
+.animation-p {
+  font-size: 25px;
+  font-family: "monospace";
+  animation-duration: 4s;
+  animation-name: ani;
+  animation-iteration-count: infinite;
+  color: blue;
+}
+
+@keyframes ani {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  100% {
+    color: blue;
+  }
+
+  80% {
+    color: green;
+  }
+
+  50% {
+    color: yellow;
+  }
+
+  0% {
+    color: red;
+    font-size: 60px;
+  }
+}
+
+.smile {
+  height: 100px;
+  animation-duration: 4s;
+  animation-name: smile;
+  animation-iteration-count: infinite;
+  margin-top: 60px;
+}
+
+@keyframes smile {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 50%;
+  }
+}
